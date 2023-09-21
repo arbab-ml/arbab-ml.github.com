@@ -82,7 +82,7 @@ analytics:
 author:
   name             : "Muhammad Arbab Arshad"
   avatar           : "profile-photo.jpeg"
-  bio              : "Your biography for the left-hand sidebar"
+  bio              : "Ph.D. student at Iowa State University"
   location         : "Iowa, United States"
   employer         :
   pubmed           : 
@@ -102,14 +102,14 @@ author:
   instagram        :
   impactstory      : #"https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
   lastfm           :
-  linkedin         :
+  linkedin         : "arbab-arshad"
   orcid            :
   pinterest        :
   soundcloud       :
   stackoverflow    : # http://stackoverflow.com/users/123456/username
   steam            :
   tumblr           :
-  twitter          : "replacethistwitterhandle"
+  twitter          : 
   vine             :
   weibo            :
   xing             :

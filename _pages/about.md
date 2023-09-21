@@ -8,15 +8,13 @@ redirect_from:
   - /about.html
 ---
 
-About me
-------
 Hi, I’m Arbab Arshad. I am a Ph.D. student at the Iowa State University (ISU). I am fortunate to be advised by [Prof. Soumik Sarkar](https://scholar.google.com/citations?user=-rmRjqIAAAAJ&hl=en).
+My research interests broadly include 3d computer vision and natural language processing. I like to build holistic understanding. like doing large scale software deployement and getting deep into machine learning models. I draw huge insipration from the work of [Andrej Kapathy](https://karpathy.ai/). By combining software and ML research experience, I aim to build AI that is both technically rigorous and practically impactful.
 
-My research interests broadly include 3d computer vision and natural language processing. I like to build holistic understanding. like doing large scale software deployement and getting deep into machine learning models. I draw huge insipration from the work of [Andrej Kapathy](https://karpathy.ai/)
-
-Create content & metadata
+News
 ------
-For site content, there is one markdown file for each type of content, which are stored in directories like _publications, _talks, _posts, _teaching, or _pages. For example, each talk is a markdown file in the [_talks directory](https://github.com/academicpages/academicpages.github.io/tree/master/_talks). At the top of each markdown file is structured data in YAML about the talk, which the theme will parse to do lots of cool stuff. The same structured data about a talk is used to generate the list of talks on the [Talks page](https://academicpages.github.io/talks), each [individual page](https://academicpages.github.io/talks/2012-03-01-talk-1) for specific talks, the talks section for the [CV page](https://academicpages.github.io/cv), and the [map of places you've given a talk](https://academicpages.github.io/talkmap.html) (if you run this [python file](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.py) or [Jupyter notebook](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.ipynb), which creates the HTML for the map based on the contents of the _talks directory).
+2023.09: Distinguished Paper Award at the 38th IEEE/ACM Intl Conf on Automated Software Engineering (ASE-2023). [Paper](https://conf.researchr.org/details/ase-2023/ase-2023-papers/105/Mutation-based-Fault-Localization-of-Deep-Neural-Networks)
+2023.05: Started advanved software engineering internship at [Kingland](https://www.kingland.com/)
 
 **Markdown generator**
 

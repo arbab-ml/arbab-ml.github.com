@@ -1,7 +1,7 @@
 ---
 permalink: /
-title: "academicpages is a ready-to-fork GitHub Pages template for academic personal websites"
-excerpt: "About me"
+# title: "academicpages is a ready-to-fork GitHub Pages template for academic personal websites"
+# excerpt: "About me"
 author_profile: true
 redirect_from: 
   - /about/
@@ -12,7 +12,7 @@ About me
 ------
 Hi, I’m Arbab Arshad. I am a Ph.D. student at the Iowa State University (ISU). I am fortunate to be advised by [Prof. Soumik Sarkar](https://scholar.google.com/citations?user=-rmRjqIAAAAJ&hl=en).
 
-My research interests broadly include natural language processing and computer vision. I am particularity excited about large-scale multimodal models, transfer learning, distributional robustness, and data-centric machine learning. You can find more about my recent work from recent publications.
+My research interests broadly include 3d computer vision and natural language processing. I like to build holistic understanding. like doing large scale software deployement and getting deep into machine learning models. I draw huge insipration from the work of [Andrej Kapathy](https://karpathy.ai/)
 
 Create content & metadata
 ------

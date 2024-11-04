@@ -24,4 +24,4 @@ My research interests broadly include artificial intelligence, computer vision, 
 - **2022.08**: Began Ph.D. in Computer Science at Iowa State University
 
 
-For more details about my work and research, please check out my [publications](/publications/) and [CV](/cv/).
+For more details about my work and research, please check out my [CV](/cv/).

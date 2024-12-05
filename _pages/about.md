@@ -25,3 +25,10 @@ My research interests broadly include artificial intelligence, computer vision, 
 
 
 For more details about my work and research, please check out my [CV](https://arbab.dev/files/my-resume.pdf).
+
+## Schedule a Meeting
+Feel free to schedule a meeting with me using the calendar below:
+
+<!-- Google Calendar Appointment Scheduling begin -->
+<iframe src="https://calendar.google.com/calendar/appointments/schedules/AcZssZ0-8CXj43b9JMBC4WICkCScMWMBxwTIGBzfPXSqULilFC4USsBSCii5u63eQFnF04djMRfQgMsa?gv=true" style="border: 0" width="100%" height="600" frameborder="0"></iframe>
+<!-- end Google Calendar Appointment Scheduling -->

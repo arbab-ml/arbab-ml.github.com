@@ -9,51 +9,59 @@ redirect_from:
 
 {% include base_path %}
 
+[Download Full CV (PDF)](https://arbab.dev/files/my-resume.pdf)
+
+Technical Skills
+======
+* **Machine Learning & AI**
+  * Deep Learning (PyTorch, TensorFlow)
+  * Computer Vision & Image Processing
+  * Natural Language Processing
+  * MLOps & Model Deployment
+* **Software Engineering**
+  * Python, Java, C++
+  * Distributed Systems
+  * Cloud Computing (AWS, GCP)
+  * System Design & Architecture
+* **Tools & Technologies**
+  * Git, Docker, Kubernetes
+  * CI/CD Pipelines
+  * Database Systems
+  * RESTful APIs
+
+Experience
+======
+* **Advanced Software Engineering Intern** (2023.05 - Present)
+  * Kingland Systems
+  * Developed enterprise-scale AI solutions
+  * Implemented production ML pipelines
+  * Tech stack: Python, AWS, Docker
+
+* **Research Assistant** (2023.01 - Present)
+  * AI Institute for Resilient Agriculture (AIIRA), Iowa State University
+  * Led development of vision-language models for specialized tasks
+  * Designed scalable 3D reconstruction systems
+  * Tech stack: PyTorch, Computer Vision, MLOps
+
 Education
 ======
-* B.S. in GitHub, GitHub University, 2012
-* M.S. in Jekyll, GitHub University, 2014
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
+* **Ph.D. in Computer Science**, Iowa State University (2022 - Present)
+  * Focus: Machine Learning, Computer Vision, AI Systems
+  * Advisor: Prof. Soumik Sarkar
 
-Work experience
+Selected Publications
 ======
-* Summer 2015: Research Assistant
-  * Github University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
+* **2024**: "Leveraging Vision Language Models for Specialized Agricultural Tasks" (WACV)
+* **2024**: "Assisted Few-Shot Learning for Vision-Language Models" (NeurIPS Workshop)
+* **2023**: "Mutation-based Fault Localization of Deep Neural Networks" (ASE) - Distinguished Paper Award
 
-* Fall 2015: Research Assistant
-  * Github University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
-  
-Skills
+Projects & Open Source
 ======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+{% for post in site.portfolio %}
+  {% include archive-single-cv.html %}
+{% endfor %}
 
-Publications
+Awards & Recognition
 ======
-  <ul>{% for post in site.publications %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Talks
-======
-  <ul>{% for post in site.talks %}
-    {% include archive-single-talk-cv.html %}
-  {% endfor %}</ul>
-  
-Teaching
-======
-  <ul>{% for post in site.teaching %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Service and leadership
-======
-* Currently signed in to 43 different slack teams
+* Distinguished Paper Award, ASE 2023
+* [Add your other awards here]

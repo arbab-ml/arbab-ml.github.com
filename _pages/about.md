@@ -6,7 +6,7 @@ redirect_from:
   - /about.html
 ---
 
-Hi, I'm Muhammad Arbab Arshad, a Computer Science Ph.D. candidate at Iowa State University specializing in applied machine learning, computer vision, and AI systems. Working with [Prof. Soumik Sarkar](https://scholar.google.com/citations?user=-rmRjqIAAAAJ&hl=en), I develop cutting-edge AI solutions that bridge theoretical research with real-world applications.
+Hi, I'm Muhammad Arbab Arshad, a Computer Science Ph.D. candidate at Iowa State University specializing in applied machine learning, computer vision, and AI systems. Working with [Prof. Soumik Sarkar](https://sites.google.com/view/scslab-isu/principal-investigator), I develop cutting-edge AI solutions that bridge theoretical research with real-world applications.
 
 My expertise spans:
 - 🤖 Machine Learning & Deep Learning

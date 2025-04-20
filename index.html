@@ -34,7 +34,7 @@
                 </p>
               </td>
               <td style="padding:2.5%;width:37%;max-width:37%">
-                <a href="images/MuhammadArbabArshad.jpg"><img style="width:100%;max-width:100%;object-fit: cover; border-radius: 50%;" alt="profile photo" src="images/MuhammadArbabArshad.jpg" class="hoverZoomLink"></a>
+                <a href="images/MuhammadArbabArshad.jpg"><img style="width:100%;max-width:100%;object-fit: contain; border-radius: 50%;" alt="profile photo" src="images/MuhammadArbabArshad.jpg" class="hoverZoomLink"></a>
               </td>
             </tr>
           </tbody></table>
@@ -63,8 +63,8 @@
           </tbody></table>
           <table style="width:100%;border:0px;border-spacing:0px 10px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
 
-
-    <tr onmouseout="cat4d_stop()" onmouseover="cat4d_start()" bgcolor="#ffffd0">
+<!-- Keep this entry as an example to format the template. do not delete this -->
+    <!-- <tr onmouseout="cat4d_stop()" onmouseover="cat4d_start()" bgcolor="#ffffd0">
       <td style="padding:16px;width:20%;vertical-align:middle">
         <div class="one">
           <div class="two" id='cat4d_image'><video  width=100% height=100% muted autoplay loop>
@@ -108,11 +108,11 @@
 				An approach for turning a video into a 4D radiance field that can be rendered in real-time. When combined with a text-to-video model, this enables text-to-4D.
         </p>
       </td>
-    </tr>
+    </tr> -->
 
 
-
-            <tr>
+<!-- Keep this entry as an example to format the template. do not delete this -->
+            <!-- <tr>
               <td style="padding:16px;width:20%;vertical-align:middle">
                 <img src="images/clean_promo.jpg" alt="clean-usnob" width="160" height="160">
               </td>
@@ -127,12 +127,12 @@
                 <p>We use computer vision techniques to identify and remove diffraction spikes and reflection halos in the USNO-B Catalog.</p>
                 <p>In use at <a href="http://www.astrometry.net">Astrometry.net</a></p>
               </td>
-            </tr>
+            </tr> -->
 
             <!-- Kingland Data Refinery Project Entry -->
             <tr>
               <td style="padding:16px;width:20%;vertical-align:middle">
-                <img src="images/clean_promo.jpg" alt="Kingland Data Refinery" width="160" height="160">
+                <img src="images-me/drf.png" alt="Data Refinery Platform" width="160" style="object-fit: contain;">
               </td>
               <td style="padding:8px;width:80%;vertical-align:middle">
                 <a href="https://www.kingland.com/data-refinery-platform">
@@ -152,7 +152,7 @@
             <!-- AgLLM Project Entry -->
             <tr>
               <td style="padding:16px;width:20%;vertical-align:middle">
-                <img src="images/clean_promo.jpg" alt="Agricultural LLM" width="160" height="160">
+                <img src="images-me/agllm.png" alt="AgLLM Project" width="160" style="object-fit: contain;">
               </td>
               <td style="padding:8px;width:80%;vertical-align:middle">
                 <a href="https://AgLLMs.github.io">
@@ -163,7 +163,7 @@
                 <br>
                 <!-- Add Venue if applicable -->
                 <br>
-                <a href="https://AgLLMs.github.io">project page</a>
+                <a href="https://AgLLMs.github.io">project page</a> / <a href="data-me/agllm.pdf">poster</a>
                 <p></p>
                 <p>
                 Developed AgLLM, a system providing precise, regionally-appropriate agricultural recommendations for 90 pest species across North America, Africa, and India. Integrates deep learning vision models (InsectNet/WeedNet) with a species-specific, region-aware Retrieval Augmented Generation (RAG) pipeline using expert-verified data, significantly improving information relevance.
@@ -177,7 +177,7 @@
             <!-- AgEval Project Entry -->
             <tr>
               <td style="padding:16px;width:20%;vertical-align:middle">
-                <img src="images/clean_promo.jpg" alt="AgEval Benchmark" width="160" height="160">
+                <img src="images-me/ageval.png" alt="AgEval Benchmark" width="160" style="object-fit: contain;">
               </td>
               <td style="padding:8px;width:80%;vertical-align:middle">
                 <a href="https://AgLLMs.github.io/AgEval">
@@ -190,7 +190,8 @@
                 <br>
                 <a href="https://AgLLMs.github.io/AgEval">project page</a> / 
                 <a href="https://ieeexplore.ieee.org/abstract/document/10943968">paper</a> / 
-                <a href="https://youtu.be/_0RJOeuO8xo?feature=shared"><font color="#FFD700"><strong>Video</strong></font></a> <!-- Using #FFD700 for gold/yellow -->
+                <a href="https://youtu.be/_0RJOeuO8xo?feature=shared"><font color="#FFD700"><strong>Video</strong></font></a> / 
+                <a href="data-me/ageval-poster.pdf">poster</a> <!-- Using #FFD700 for gold/yellow -->
                 <p></p>
                 <ul>
                   <li>Developed AgEval, a 12-task benchmark for evaluating Vision Language Models (VLMs) in agricultural plant stress phenotyping.</li>
@@ -241,7 +242,7 @@
                 <br>
                 <em>Plant Phenomics</em>, 2024 <!-- Placeholder Year -->
                 <br>
-                <a href="https://spj.science.org/doi/10.34133/plantphenomics.0235">paper</a>
+                <a href="https://spj.science.org/doi/10.34133/plantphenomics.0235">paper</a> / <a href="data/nerf-poster.pdf">poster</a>
                 <p></p>
                 <ul>
                   <li>Evaluated Neural Radiance Field (NeRF) techniques for 3D plant reconstruction in varied environments (indoor to field).</li>
@@ -251,131 +252,35 @@
               </td>
             </tr>
 
-          </tbody></table>
-
-          <!-- Experience Section -->
-          <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+            <!-- Assisted Few-Shot Learning Project Entry -->
             <tr>
-              <td style="padding:16px;width:100%;vertical-align:middle">
-                <h2>Experience</h2>
+              <td style="padding:16px;width:20%;vertical-align:middle">
+                <img src="images-me/assisted-few-shot.png" alt="Assisted Few-Shot Learning" width="160" style="object-fit: contain;">
               </td>
-            </tr>
-          </tbody></table>
-          <table style="width:100%;border:0px;border-spacing:0px 10px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
-            <!-- Intel Entry -->
-            <tr>
-              <td style="padding:16px;width:100%;vertical-align:middle">
-                <p>
-                  <strong style="font-size: large;">Intel</strong> &nbsp;&nbsp; <i>California, United States of America</i> <br>
-                  <em>Graduate Software Engineering Intern</em> &nbsp;&nbsp; <span style="float:right;"><i>Feb 2025 – Present</i></span>
-                </p>
+              <td style="padding:8px;width:80%;vertical-align:middle">
+                <a href="https://openreview.net/pdf?id=WutpswD3ea">
+                  <span class="papertitle">Assisted Few-Shot Learning for Vision-Language Models in Agriculture</span>
+                </a>
+                <br>
+                <strong>Muhammad Arbab Arshad</strong>, Talukder Zaki Jubery, Asheesh K Singh, ARTI SINGH, Chinmay Hegde, Baskar Ganapathysubramanian, Aditya Balu, Adarsh Krishnamurthy, Soumik Sarkar
+                <br>
+                <em>NeurIPS Workshop on Adaptive Foundation Models</em>, 2024
+                <br>
+                <a href="https://openreview.net/pdf?id=WutpswD3ea">paper</a> / 
+                <a href="data-me/assisted-few-shot.pdf">poster</a>
+                <p></p>
                 <ul>
-                  <li><strong>Computer Vision-based UI Automation via Large Language Models (LLMs):</strong> Architected autonomous agent framework leveraging multimodal LLMs to generate cross-platform automation scripts, reducing manual testing workflows by 85%. Fine-tuned Llama 3.2 11B vision model using PyTorch TorchTune, improving computer navigation performance from 40% to 90% across diverse rendering applications. Implemented real-time adaptive vision-to-code generation achieving 95% validation accuracy for complex UI interactions.</li>
-                  <li><strong>Visual Anomaly Detection for Graphics Validation (Project VAAML):</strong> Contributing to initiative addressing Intel's $6.5M annual manual testing costs for hardware-game compatibility validation. Developing real-time anomaly detection system using Vision-Language Models that has reached 87% detection accuracy in preliminary testing across diverse rendering scenarios.</li>
-                  <li><strong>LLM Benchmarking & Hardware Enablement:</strong> Implementing production deployment of cutting-edge LLMs (DeepSeek, Llama, Qwen, Janus) on Intel GPUs through OpenVINO and PyTorch optimizations as part of Intel's AI acceleration team. Executing systematic performance analysis across Intel and NVIDIA hardware platforms, documenting throughput, latency, and memory utilization metrics for strategic product positioning.</li>
+                  <li>Proposed Assisted Few-Shot Learning approach to enhance VLMs for image classification with limited agricultural data.</li>
+                  <li>Optimized few-shot example selection using encoders (ViT, ResNet-50, CLIP) and cosine similarity.</li>
+                  <li>Improved performance in 6/7 agricultural stress phenotyping tasks, increasing avg. F1 score from 68.68% to 80.45% (ViT).</li>
                 </ul>
               </td>
             </tr>
-            <!-- AIIRA Entry -->
-            <tr>
-               <td style="padding:16px;width:100%;vertical-align:middle">
-                 <p>
-                   <strong style="font-size: large;">AI Institute for Resilient Agriculture (AIIRA), Iowa State University</strong> &nbsp;&nbsp; <i>Iowa, United States of America</i> <br>
-                   <em>Ph.D. Candidate and Research Assistant</em> &nbsp;&nbsp; <span style="float:right;"><i>Jan 2023 – Present</i></span>
-                 </p>
-                 <ul>
-                 </ul>
-               </td>
-             </tr>
+
           </tbody></table>
-          <!-- End Experience Section -->
 
-					<table style="width:100%; margin:0 auto; border:0; border-spacing:0; padding:16px;"><tbody>
-            <tr>
-              <td>
-                <h2>Miscellanea</h2>
-              </td>
-            </tr>
           </tbody></table>
-          <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
-            
-           
-            <tr>
-              <td align="center" style="padding:16px;width:20%;vertical-align:middle">
-						     <div class="colored-box" style="background-color: #fcb97d;">
-								 <h2>Micropapers</h2>
-								 </div>
-              </td>
-              <td style="padding:8px;width:80%;vertical-align:middle">
-                <a href="https://arxiv.org/abs/2112.11687">Squareplus: A Softplus-Like Algebraic Rectifier</a>
-                <br>
-                <a href="https://arxiv.org/abs/2010.09714">A Convenient Generalization of Schlick's Bias and Gain Functions</a>
-                <br>
-                <a href="https://arxiv.org/abs/1704.07483">Continuously Differentiable Exponential Linear Units</a>
-                <br>
-                <a href="https://jonbarron.info/data/cvpr2023_llm_workshop_annotated.pdf">Scholars & Big Models: How Can Academics Adapt?</a>
-              </td>
-            </tr>
 
-
-            <tr>
-              <td align="center" style="padding:16px;width:20%;vertical-align:middle">
-						     <div class="colored-box" style="background-color: #aaba9e;">
-								 <h2>Recorded Talks</h2>
-								 </div>
-              </td>
-              <td style="padding:8px;width:80%;vertical-align:center">
-                <a href="#">Industry Talk Title [Link if available]</a> (Event/Date)
-								<br>
-                <a href="#">Research Talk 1 Title [Link if available]</a> (Event/Date)
-								<br>
-                <a href="#">Research Talk 2 Title [Link if available]</a> (Event/Date)
-              </td>
-            </tr>
-
-            <tr>
-              <td align="center" style="padding:16px;width:20%;vertical-align:middle">
-						     <div class="colored-box" style="background-color: #c6b89e;">
-								 <h2>Academic Service</h2>
-								 </div>
-              </td>
-              <td style="padding:8px;width:80%;vertical-align:center">
-                <a href="https://iccv.thecvf.com/">Lead Area Chair, ICCV 2025</a>
-                <br>
-                <a href="https://cvpr.thecvf.com/Conferences/2025/Organizers">Lead Area Chair, CVPR 2025</a>
-                <br>
-                <a href="https://cvpr.thecvf.com/Conferences/2024/Organizers">Area Chair, CVPR 2024</a>
-                <br>
-                <a href="https://cvpr2023.thecvf.com/Conferences/2023/Organizers">Demo Chair, CVPR 2023</a>
-                <br>
-                <a href="https://cvpr2022.thecvf.com/area-chairs">Area Chair, CVPR 2022</a>
-                <br>
-                <a href="http://cvpr2021.thecvf.com/area-chairs">Area Chair & Award Committee Member, CVPR 2021</a>
-                <br>
-                <a href="http://cvpr2019.thecvf.com/area_chairs">Area Chair, CVPR 2019</a>
-                <br>
-                <a href="http://cvpr2018.thecvf.com/organizers/area_chairs">Area Chair, CVPR 2018</a>
-              </td>
-            </tr>
-						
-						
-           
-            <tr>
-              <td align="center" style="padding:16px;width:20%;vertical-align:middle">
-						     <div class="colored-box" style="background-color: #edd892;">
-								 <h2>Teaching</h2>
-								 </div>
-              </td>
-              <td style="padding:8px;width:80%;vertical-align:center">
-                <a href="http://inst.eecs.berkeley.edu/~cs188/sp11/announcements.html">Graduate Student Instructor, CS188 Spring 2011</a>
-                <br>
-                <a href="http://inst.eecs.berkeley.edu/~cs188/fa10/announcements.html">Graduate Student Instructor, CS188 Fall 2010</a>
-                <br>
-                <a href="http://aima.cs.berkeley.edu/">Figures, "Artificial Intelligence: A Modern Approach", 3rd Edition</a>
-              </td>
-            </tr>
-            
-          </tbody></table>
           <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
             <tr>
               <td style="padding:0px">

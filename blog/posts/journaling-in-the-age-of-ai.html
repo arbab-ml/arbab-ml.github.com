@@ -2,15 +2,15 @@
 <html lang="en">
   <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-    <title>[POST TITLE] - Muhammad Arbab</title>
+    <title>Journaling in the Age of AI - Muhammad Arbab</title>
     <meta name="author" content="Muhammad Arbab">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="[POST DESCRIPTION - 150-160 characters for SEO]">
+    <meta name="description" content="Exploring the evolving practice of journaling amidst advancements in Artificial Intelligence.">
     <link rel="shortcut icon" href="../../images/favicon/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" type="text/css" href="../../stylesheet.css">
     <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
     <style>
-      /* Blog post specific styles */
+      /* Blog post specific styles - Copied from template.html, can be centralized if needed */
       .blog-post {
         max-width: 700px;
         margin: 0 auto;
@@ -32,54 +32,54 @@
         color: #666;
         font-size: 14px;
       }
-      .post-content-wrapper { /* Renamed for clarity */
+      .post-content-wrapper {
         line-height: 1.8;
         color: #333;
       }
-      .post-content-wrapper h2 { /* Adjusted selector */
+      .post-content-wrapper h2 {
         margin-top: 35px;
         margin-bottom: 15px;
         font-size: 24px;
         font-weight: 600;
       }
-      .post-content-wrapper h3 { /* Adjusted selector */
+      .post-content-wrapper h3 {
         margin-top: 25px;
         margin-bottom: 10px;
         font-size: 18px;
         font-weight: 600;
       }
-      .post-content-wrapper p { /* Adjusted selector */
+      .post-content-wrapper p {
         margin-bottom: 20px;
       }
-      .post-content-wrapper ul, .post-content-wrapper ol { /* Adjusted selector */
+      .post-content-wrapper ul, .post-content-wrapper ol {
         margin-bottom: 20px;
         padding-left: 30px;
       }
-      .post-content-wrapper li { /* Adjusted selector */
+      .post-content-wrapper li {
         margin-bottom: 8px;
         line-height: 1.6;
       }
-      .post-content-wrapper code { /* Adjusted selector */
+      .post-content-wrapper code {
         background-color: #f5f5f5;
         padding: 2px 6px;
         border-radius: 3px;
         font-family: 'Courier New', monospace;
         font-size: 13px;
       }
-      .post-content-wrapper pre { /* Adjusted selector */
+      .post-content-wrapper pre {
         background-color: #f5f5f5;
         padding: 15px;
         border-radius: 5px;
         overflow-x: auto;
         margin-bottom: 20px;
       }
-       .post-content-wrapper pre code { /* Style for code inside pre */
+      .post-content-wrapper pre code {
         background-color: transparent;
         padding: 0;
         border-radius: 0;
-        font-size: 13px; /* Ensure consistent font size */
+        font-size: 13px;
       }
-      .post-content-wrapper blockquote { /* Adjusted selector */
+      .post-content-wrapper blockquote {
         border-left: 3px solid #1772d0;
         padding-left: 20px;
         margin: 20px 0;
@@ -111,8 +111,6 @@
         margin-top: 40px;
       }
       
-      /* Optional: Add custom styles for this specific post below */
-      
     </style>
   </head>
 
@@ -125,9 +123,9 @@
 
       <article>
         <header class="post-header">
-          <h1 class="post-title">[POST TITLE]</h1>
+          <h1 class="post-title">Journaling in the Age of AI</h1>
           <div class="post-meta">
-            <time>[DATE - Month DD, YYYY]</time> · [READING TIME] min read
+            <time>[DATE - e.g., January 01, 2025]</time> · [X] min read
           </div>
         </header>
 
@@ -136,47 +134,33 @@
         </div>
 
         <script type="text/markdown" id="markdown-source">
-### TEMPLATE INSTRUCTIONS:
-1.  Replace all placeholders in square brackets `[LIKE THIS]` in the HTML above (e.g., title, date).
-2.  Write your blog post content in Markdown format below this instruction block.
-3.  Add the post entry to `../index.html` (the main blog listing).
-4.  Update the filename from `template.html` to `your-post-name.html`.
-5.  Update the `Current page: /blog/posts/[FILENAME].html` at the bottom of this file.
+## Introduction
 
----
+(Start writing your blog post here in Markdown...)
 
-## [Main Section Title]
-[Section content...]
+## How AI is Changing Journaling
 
-### [Subsection Title]
-[Subsection content...]
+...
 
-<!-- Example of a list -->
-*   [List item 1]
-*   [List item 2]
-*   [List item 3]
+### AI-Powered Journaling Tools
 
-<!-- Example of a code block -->
-```python
-print("Hello, Markdown!")
-```
+...
 
-<!-- Example of a blockquote -->
-> "[Inspiring or relevant quote]" - [Author]
+## The Human Element
+
+...
 
 ## Conclusion
-[Concluding thoughts and key takeaways]
+
+...
+
         </script>
         
         <script>
           document.addEventListener('DOMContentLoaded', function() {
             var markdownText = document.getElementById('markdown-source').textContent;
-            // Remove the instruction block before parsing
-            var contentStartIndex = markdownText.indexOf('---');
-            if (contentStartIndex !== -1) {
-              markdownText = markdownText.substring(contentStartIndex + 3).trim();
-            }
-            document.getElementById('html-output').innerHTML = marked.parse(markdownText);
+            // No need to remove instruction block as it's not in the main content for new posts
+            document.getElementById('html-output').innerHTML = marked.parse(markdownText.trim());
           });
         </script>
 
@@ -188,7 +172,7 @@ print("Hello, Markdown!")
       </article>
 
       <div class="current-url">
-        Current page: /blog/posts/[FILENAME].html
+        Current page: /blog/posts/journaling-in-the-age-of-ai.html
       </div>
     </div>
   </body>
